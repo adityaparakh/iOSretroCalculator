@@ -12,6 +12,8 @@
 		40A397AC1D129770008904C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A397AA1D129770008904C1 /* Main.storyboard */; };
 		40A397AE1D129770008904C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A397AD1D129770008904C1 /* Assets.xcassets */; };
 		40A397B11D129770008904C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A397AF1D129770008904C1 /* LaunchScreen.storyboard */; };
+		40A397B91D12A29B008904C1 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40A397B81D12A29B008904C1 /* Minecrafter.Reg.ttf */; };
+		40A397BB1D12A333008904C1 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40A397BA1D12A333008904C1 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		40A397AD1D129770008904C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A397B01D129770008904C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40A397B21D129770008904C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A397B81D12A29B008904C1 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		40A397BA1D12A333008904C1 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		40A397A51D129770008904C1 /* retroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				40A397B81D12A29B008904C1 /* Minecrafter.Reg.ttf */,
+				40A397BA1D12A333008904C1 /* Minecraft.ttf */,
 				40A397A61D129770008904C1 /* AppDelegate.swift */,
 				40A397A81D129770008904C1 /* ViewController.swift */,
 				40A397AA1D129770008904C1 /* Main.storyboard */,
@@ -124,7 +130,9 @@
 			files = (
 				40A397B11D129770008904C1 /* LaunchScreen.storyboard in Resources */,
 				40A397AE1D129770008904C1 /* Assets.xcassets in Resources */,
+				40A397BB1D12A333008904C1 /* Minecraft.ttf in Resources */,
 				40A397AC1D129770008904C1 /* Main.storyboard in Resources */,
+				40A397B91D12A29B008904C1 /* Minecrafter.Reg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
