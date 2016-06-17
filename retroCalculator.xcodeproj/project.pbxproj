@@ -14,6 +14,7 @@
 		40A397B11D129770008904C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A397AF1D129770008904C1 /* LaunchScreen.storyboard */; };
 		40A397B91D12A29B008904C1 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40A397B81D12A29B008904C1 /* Minecrafter.Reg.ttf */; };
 		40A397BB1D12A333008904C1 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40A397BA1D12A333008904C1 /* Minecraft.ttf */; };
+		40A397BD1D12AAC6008904C1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 40A397BC1D12AAC6008904C1 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		40A397B21D129770008904C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40A397B81D12A29B008904C1 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
 		40A397BA1D12A333008904C1 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		40A397BC1D12AAC6008904C1 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				40A397B81D12A29B008904C1 /* Minecrafter.Reg.ttf */,
+				40A397BC1D12AAC6008904C1 /* btn.wav */,
 				40A397BA1D12A333008904C1 /* Minecraft.ttf */,
 				40A397A61D129770008904C1 /* AppDelegate.swift */,
 				40A397A81D129770008904C1 /* ViewController.swift */,
@@ -102,6 +105,7 @@
 				TargetAttributes = {
 					40A397A21D129770008904C1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7JN9WBCLV4;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			files = (
 				40A397B11D129770008904C1 /* LaunchScreen.storyboard in Resources */,
 				40A397AE1D129770008904C1 /* Assets.xcassets in Resources */,
+				40A397BD1D12AAC6008904C1 /* btn.wav in Resources */,
 				40A397BB1D12A333008904C1 /* Minecraft.ttf in Resources */,
 				40A397AC1D129770008904C1 /* Main.storyboard in Resources */,
 				40A397B91D12A29B008904C1 /* Minecrafter.Reg.ttf in Resources */,
@@ -257,10 +262,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = retroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adityaparakh.retroCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -268,10 +276,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = retroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adityaparakh.retroCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -294,6 +305,7 @@
 				40A397B71D129770008904C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
